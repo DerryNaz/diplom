@@ -4,7 +4,7 @@ import requests
 
 
 # Создание заказа
-def post_orders_track():
+def  post_orders_track():
     orders_track = requests.post(configuration.URL_SERVICE + configuration.ORDERS_NEW,  # подставляем полный url
                                  json=data.user_body)  # Тут тело
     track_number = orders_track.json()["track"]  # Трек нового заказа в переменной
