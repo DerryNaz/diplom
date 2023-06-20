@@ -11,4 +11,3 @@ user_body = {
         "BLACK"
     ]
 }
-
